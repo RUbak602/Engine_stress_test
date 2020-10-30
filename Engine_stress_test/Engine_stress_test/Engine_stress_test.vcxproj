@@ -141,9 +141,11 @@
   <ItemGroup>
     <ClCompile Include="Engines.cpp" />
     <ClCompile Include="Engine_stress_test.cpp" />
+    <ClCompile Include="TestStandClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engines.h" />
+    <ClInclude Include="TestStandClass.h" />
     <ClInclude Include="TestStand.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

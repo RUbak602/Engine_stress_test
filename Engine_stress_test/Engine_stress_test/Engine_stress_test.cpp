@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
 	double ambientTemperature;
-	cout << "Please, enter ambient temperature" << endl;
+	cout << "Please, enter ambient temperature in degrees Celsius" << endl;
 	cin >> ambientTemperature;
 	engines::InternalCombustionEngine engine;
 	standArrea::TestStand<engines::InternalCombustionEngine> stand(engine, ambientTemperature);

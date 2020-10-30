@@ -7,7 +7,7 @@ namespace engines
 	struct InternalCombustionEngine
 	{
 		//Момент инерции двигателя I (кг∙м2)
-		double I = 0.1;
+		double I = 10;
 		//Температура перегрева
 		double overheatTemperature = 110;
 		//Коэффициент зависимости скорости нагрева от крутящего момента
